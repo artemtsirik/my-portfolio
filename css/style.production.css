@@ -16,6 +16,14 @@ body {
   line-height: 1.2;
 }
 
+.home-content {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.home-hero {
+}
+
 /* Welcome */
 h1 {
   font-size: 38px;
