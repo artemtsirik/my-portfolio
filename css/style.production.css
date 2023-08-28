@@ -17,9 +17,10 @@ body {
 }
 
 .home-content {
-  padding-top: 100px;
-  padding-bottom: 200px;
+  display: flex;
+  align-items: center;
 }
+
 /* Welcome */
 h1 {
   font-size: 38px;
@@ -129,8 +130,7 @@ button:focus,
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  padding: 20px;
-
+  padding: 5px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
@@ -155,6 +155,7 @@ button:focus,
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
+  margin-right: 20px;
   list-style-type: none;
 }
 
