@@ -17,14 +17,16 @@ body {
 }
 
 .home-content {
-  display: flex;
+  display: flexbox;
+  flex-direction: column;
   align-items: center;
+  margin: 150px;
 }
 
 /* Welcome */
 h1 {
-  font-size: 38px;
-  font-weight: 400;
+  font-size: 55px;
+  font-weight: bold;
 }
 
 /* Find me On */
@@ -34,8 +36,9 @@ h3 {
 
 /* Intoduction */
 h4 {
-  font-size: 26px;
-  font-weight: 400;
+  font-size: 23px;
+  font-weight: lighter;
+  color: #444444;
 }
 
 a:hover,
@@ -108,6 +111,8 @@ button:focus,
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  position: fixed;
+  width: 100%;
 }
 
 .contact-page {
@@ -145,6 +150,11 @@ button:focus,
   align-self: center;
 }
 
+.logo {
+  padding: 8px;
+  color: #444;
+}
+
 .page-header__item:last-child {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
@@ -161,8 +171,12 @@ button:focus,
 
 .grid__item {
   background-color: rgb(233, 233, 233);
-  margin: 10px;
+  margin: 5px;
+  padding: 12px;
   width: auto;
+}
+.work_text {
+  text-align: center;
 }
 
 .grid {
